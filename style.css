@@ -1,0 +1,58 @@
+/* change the 1st heading style */
+h1 {
+    color: rgb(255,255,0);
+    text-align: center;
+    background-color: rgb(100,100,255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+    padding: 5px;
+}
+h2 , .list{
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+body {
+    background:  black;
+    color: white;
+}
+/* make starters image div center and border */
+#starters_image_div {
+    text-align: center;
+}
+#starters_image_div img {
+    border: solid rgb(70,100,255) 4px;
+    padding: 5px;
+}
+.pokemon_images {
+    width: 150px;
+    height: 150px;
+}
+.each_pokemon_container {
+    /* this holds the images, so i can align them center */
+    text-align: center;
+}
+/* Here same border radius and padding done to all descriptions */
+#bulbasaur_container, #charmander_container,#squirtle_container {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    border: solid rgb(255,255,120) 2px;
+}
+
+/* Now color the text boxes */
+#bulbasaur_container {
+    background: rgb(0,240,140);
+}
+#charmander_container {
+    background: rgb(230, 170, 31);
+}
+#squirtle_container {
+    background: rgb(89, 195, 248);
+    margin-bottom: 150px;
+}
+/* change font for pokemon description */
+.pokemon_description {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
